@@ -13,6 +13,12 @@ public class CombineLists {
         System.out.println(combineList);
     }
 
+    /**
+     * Combine two lists
+     * @param list01
+     * @param list02
+     * @return combined list
+     */
     public static List<Object> combineList(List<Object> list01, List<Object> list02){
         if (list01.size() != list02.size()){
             System.out.println("List sizes are not matched");

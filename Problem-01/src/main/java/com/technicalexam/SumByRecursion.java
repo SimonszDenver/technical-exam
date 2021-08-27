@@ -13,6 +13,12 @@ public class SumByRecursion {
         out.println(sum);
     }
 
+    /**
+     * Compute sum in recursion
+     * @param numbers
+     * @param size
+     * @return
+     */
     public static int computeSum(List<Integer> numbers, int size){
         if (size <= 0){
             return 0;

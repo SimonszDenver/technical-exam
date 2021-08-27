@@ -1,7 +1,6 @@
 package com.technicalexam;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FibonacciSeries {
@@ -9,9 +8,12 @@ public class FibonacciSeries {
     public static void main(String[] args) {
         List<Integer> fibonacci = getFibonacci();
         System.out.println(fibonacci);
-
     }
 
+    /**
+     * Return first 100 fibonacci numbers
+     * @return fibonnacci numbers
+     */
     public static List<Integer> getFibonacci(){
         /* Initialize fibannocci arraylist and add 0 1 1 as the initial vlaues*/
         List<Integer> fibonacci = new ArrayList<>();
